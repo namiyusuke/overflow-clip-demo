@@ -63,7 +63,7 @@ body {
 /* Sticky Tabs */
 .sticky-tab-group {
   padding-top: 30rem;
-  overflow: clip;
+  /* overflow: clip; */
 }
 
 .sticky-tab-group__nav-bg {
@@ -123,6 +123,7 @@ body {
   align-items: center;
   height: 100vh;
   display: flex;
+  position: relative;
 }
 
 .sticky-tab__before-bg {
@@ -190,4 +191,12 @@ body {
     padding-left: 1em;
     padding-right: 1em;
   }
+}
+.sticky-tab__label{
+  margin-left: 1em;
+  font-size: 4em;
+  position: absolute;
+  top: 0;
+  right: -4em;
+  color: #131313;
 }
