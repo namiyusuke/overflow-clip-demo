@@ -86,7 +86,6 @@ body {
 .sticky-tab__sticky {
   z-index: 1;
   top: 0;
-  /* top: calc(var(--nav-height) - 1px); */
   flex-flow: column;
   margin-top: -1px;
   display: flex;
@@ -162,9 +161,9 @@ body {
   line-height: 1;
 }
 
-/* Osmo Icon */
-.osmo-icon-svg {
-  width:15em;
+.sticky-tab__placeholder-content svg{
+  width:7rem !important;
+  height: 7rem !important;
 }
 
 /* Media Queries */
@@ -197,6 +196,6 @@ body {
   font-size: 4em;
   position: absolute;
   top: 0;
-  right: -4em;
+  right: -1em;
   color: #131313;
 }
